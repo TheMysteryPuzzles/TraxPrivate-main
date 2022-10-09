@@ -1,0 +1,816 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0403A17728E6F3D5006E14A2 /* SectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403A17628E6F3D5006E14A2 /* SectionType.swift */; };
+		0403A17928E7255E006E14A2 /* HomeRootMultiRowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403A17828E7255E006E14A2 /* HomeRootMultiRowCell.swift */; };
+		040822E328D9C615003B47A3 /* DealsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040822E228D9C615003B47A3 /* DealsCell.swift */; };
+		040DF31328E1B7280033C2A6 /* CouponValidDaysModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040DF31228E1B7280033C2A6 /* CouponValidDaysModel.swift */; };
+		043D694A28D0B4150055CEC8 /* WalkthroughViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043D694928D0B4150055CEC8 /* WalkthroughViewController.swift */; };
+		0445F34928D5BF97001049AD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0445F34828D5BF96001049AD /* GoogleService-Info.plist */; };
+		044A31B028CB1B6800F0A2C8 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 044A31AA28CB1B6700F0A2C8 /* Roboto-Medium.ttf */; };
+		044A31B128CB1B6800F0A2C8 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 044A31AB28CB1B6700F0A2C8 /* Roboto-Regular.ttf */; };
+		044A31B228CB1B6800F0A2C8 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 044A31AC28CB1B6700F0A2C8 /* Roboto-Bold.ttf */; };
+		044A31B328CB1B6800F0A2C8 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 044A31AD28CB1B6700F0A2C8 /* Roboto-Thin.ttf */; };
+		044A31B428CB1B6800F0A2C8 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 044A31AE28CB1B6800F0A2C8 /* Roboto-Light.ttf */; };
+		044A31BA28CB5F9600F0A2C8 /* ATableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044A31B728CB5F9600F0A2C8 /* ATableView.swift */; };
+		044A31BB28CB5F9600F0A2C8 /* AnimationFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044A31B828CB5F9600F0A2C8 /* AnimationFactory.swift */; };
+		044A31BC28CB5F9600F0A2C8 /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044A31B928CB5F9600F0A2C8 /* Animator.swift */; };
+		0455F7C928D45AAA00D407F5 /* CountriesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455F7C828D45AAA00D407F5 /* CountriesModel.swift */; };
+		0455F7CB28D479A900D407F5 /* ReviewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455F7CA28D479A900D407F5 /* ReviewModel.swift */; };
+		0458039A28C5CFCF00E3A339 /* CategoryListing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0458039928C5CFCF00E3A339 /* CategoryListing.swift */; };
+		045B7F2528B4ABCB00FFC72A /* BranchesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045B7F2428B4ABCB00FFC72A /* BranchesCell.swift */; };
+		045B7F2728B4B79900FFC72A /* ReviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045B7F2628B4B79900FFC72A /* ReviewCell.swift */; };
+		045B7F2928B4C82500FFC72A /* MyAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045B7F2828B4C82500FFC72A /* MyAccountViewController.swift */; };
+		045B7F2B28B4E42900FFC72A /* MyCouponsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045B7F2A28B4E42900FFC72A /* MyCouponsTableViewController.swift */; };
+		045B7F2D28B4F94100FFC72A /* RedeemVoucherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045B7F2C28B4F94100FFC72A /* RedeemVoucherViewController.swift */; };
+		047310F128C0D3F500C89160 /* CouponDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047310F028C0D3F500C89160 /* CouponDetailViewController.swift */; };
+		0476A0EF28E578260072FC73 /* HomeRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0476A0EE28E578260072FC73 /* HomeRootViewController.swift */; };
+		0476A0F128E585AE0072FC73 /* HomeSectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0476A0F028E585AE0072FC73 /* HomeSectionModel.swift */; };
+		0476A0F328E585C10072FC73 /* HomeSectionVoucherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0476A0F228E585C10072FC73 /* HomeSectionVoucherModel.swift */; };
+		0478954228B0BD4200938B7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0478954128B0BD4200938B7A /* AppDelegate.swift */; };
+		0478954428B0BD4200938B7A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0478954328B0BD4200938B7A /* SceneDelegate.swift */; };
+		0478954628B0BD4200938B7A /* SignInController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0478954528B0BD4200938B7A /* SignInController.swift */; };
+		0478954928B0BD4200938B7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0478954728B0BD4200938B7A /* Main.storyboard */; };
+		0478954B28B0BD4E00938B7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0478954A28B0BD4E00938B7A /* Assets.xcassets */; };
+		0478954E28B0BD4E00938B7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0478954C28B0BD4E00938B7A /* LaunchScreen.storyboard */; };
+		048E557428B8B923000F82E0 /* VoucherDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E557328B8B923000F82E0 /* VoucherDetailModel.swift */; };
+		048E557628B8BD55000F82E0 /* CouponModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E557528B8BD55000F82E0 /* CouponModel.swift */; };
+		048E557828B8CD39000F82E0 /* MerchanBranchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E557728B8CD39000F82E0 /* MerchanBranchModel.swift */; };
+		048E557A28B8CF9E000F82E0 /* MerchantAboutModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E557928B8CF9E000F82E0 /* MerchantAboutModel.swift */; };
+		048E557C28B8F93B000F82E0 /* UserDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E557B28B8F93B000F82E0 /* UserDataModel.swift */; };
+		0490902F28F00ABC008FF198 /* GiftsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0490902E28F00ABC008FF198 /* GiftsView.swift */; };
+		04A9195128B0D54A0026AA4A /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A9195028B0D54A0026AA4A /* RegisterViewController.swift */; };
+		04A9195328B0DBE40026AA4A /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A9195228B0DBE40026AA4A /* ForgotPasswordViewController.swift */; };
+		04A9195528B0E8840026AA4A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A9195428B0E8840026AA4A /* HomeViewController.swift */; };
+		04A9195728B0F1750026AA4A /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A9195628B0F1750026AA4A /* TabBarViewController.swift */; };
+		04A9195A28B103B40026AA4A /* CategoriesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A9195928B103B40026AA4A /* CategoriesCell.swift */; };
+		04D05A4B28B75BC4008BB547 /* ShowNotificationMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D05A4A28B75BC4008BB547 /* ShowNotificationMessages.swift */; };
+		04D05A4D28B75DCE008BB547 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D05A4C28B75DCE008BB547 /* NetworkManager.swift */; };
+		04D05A4F28B79BD6008BB547 /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D05A4E28B79BD6008BB547 /* CategoryModel.swift */; };
+		04D05A5128B7B10E008BB547 /* VoucherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D05A5028B7B10E008BB547 /* VoucherModel.swift */; };
+		04D67CC828E58DCD000494FE /* SliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D67CC728E58DCD000494FE /* SliderCell.swift */; };
+		04D67CCA28E59132000494FE /* CategoryRootCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D67CC928E59132000494FE /* CategoryRootCell.swift */; };
+		04D67CCC28E59C18000494FE /* VoucherListingRootCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D67CCB28E59C18000494FE /* VoucherListingRootCell.swift */; };
+		04DAD26728B9FA7800C77737 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DAD26628B9FA7800C77737 /* CartViewController.swift */; };
+		04DAD26928BA13E700C77737 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DAD26828BA13E700C77737 /* ThemeManager.swift */; };
+		04DAD26B28BA308F00C77737 /* CheckoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DAD26A28BA308F00C77737 /* CheckoutViewController.swift */; };
+		04DAD26D28BA4E9000C77737 /* CouponView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DAD26C28BA4E9000C77737 /* CouponView.swift */; };
+		04DAD26F28BA4EA500C77737 /* BranchesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DAD26E28BA4EA500C77737 /* BranchesView.swift */; };
+		04DAD27128BA4EBA00C77737 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DAD27028BA4EBA00C77737 /* AboutView.swift */; };
+		04DAD27328BA4EC900C77737 /* ReviewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DAD27228BA4EC900C77737 /* ReviewsView.swift */; };
+		04DC502728D99B7A00C2FFA4 /* HomeVoucherListingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DC502628D99B7A00C2FFA4 /* HomeVoucherListingCell.swift */; };
+		04DC502A28D9C17C00C2FFA4 /* HomeSectionRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DC502928D9C17C00C2FFA4 /* HomeSectionRoot.swift */; };
+		04DFB02328DB21FF0001FB8D /* CategoryFeaturedListingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DFB02228DB21FF0001FB8D /* CategoryFeaturedListingCell.swift */; };
+		04E21B5428C0B09900C5EDCB /* MyHistoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E21B5328C0B09900C5EDCB /* MyHistoryModel.swift */; };
+		04E855AD28C361190041293D /* HomeVoucherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E855AC28C361190041293D /* HomeVoucherModel.swift */; };
+		04F185E128BCA7E20048A456 /* CartItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F185E028BCA7E20048A456 /* CartItemModel.swift */; };
+		04F185E328BCB2A20048A456 /* CartItemBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F185E228BCB2A20048A456 /* CartItemBadge.swift */; };
+		04F2D0FE28BE3F8D00E4346E /* MyVoucherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F2D0FD28BE3F8D00E4346E /* MyVoucherModel.swift */; };
+		04F2D10028BE45B300E4346E /* MyCouponModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F2D0FF28BE45B200E4346E /* MyCouponModel.swift */; };
+		04F41EF128BF679F00B127EF /* Adventure.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04F41EF028BF679F00B127EF /* Adventure.ttf */; };
+		04F41EF328BF67C600B127EF /* MASQUE__.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04F41EF228BF67C600B127EF /* MASQUE__.ttf */; };
+		04F41EF728BF67E700B127EF /* Vonique 64 Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04F41EF428BF67E700B127EF /* Vonique 64 Italic.ttf */; };
+		04F41EF828BF67E700B127EF /* Vonique 64 Bold Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04F41EF528BF67E700B127EF /* Vonique 64 Bold Italic.ttf */; };
+		04F41EF928BF67E700B127EF /* Vonique 64.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04F41EF628BF67E700B127EF /* Vonique 64.ttf */; };
+		04FBD4FE28B35F9600330E19 /* VouchersListingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FBD4FD28B35F9600330E19 /* VouchersListingCell.swift */; };
+		04FBD50028B3896100330E19 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FBD4FF28B3896100330E19 /* SearchViewController.swift */; };
+		04FBD50328B3988A00330E19 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FBD50228B3988A00330E19 /* CategoryViewController.swift */; };
+		04FC431528B3AAE7008B01E3 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FC431428B3AAE7008B01E3 /* ProductViewController.swift */; };
+		04FC431728B3B3CD008B01E3 /* CouponCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FC431628B3B3CD008B01E3 /* CouponCell.swift */; };
+		96B3F6EE28F31B86004DE7E9 /* RootGifViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B3F6ED28F31B86004DE7E9 /* RootGifViewController.swift */; };
+		96B3F6F228F32680004DE7E9 /* launchgif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 96B3F6F128F32680004DE7E9 /* launchgif.gif */; };
+		F6EF2156075F010B2CF2784D /* Pods_Trax.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CA8C029F6590F79E219B356 /* Pods_Trax.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0403A17628E6F3D5006E14A2 /* SectionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionType.swift; sourceTree = "<group>"; };
+		0403A17828E7255E006E14A2 /* HomeRootMultiRowCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRootMultiRowCell.swift; sourceTree = "<group>"; };
+		040822E228D9C615003B47A3 /* DealsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealsCell.swift; sourceTree = "<group>"; };
+		040DF31228E1B7280033C2A6 /* CouponValidDaysModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponValidDaysModel.swift; sourceTree = "<group>"; };
+		043D694928D0B4150055CEC8 /* WalkthroughViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughViewController.swift; sourceTree = "<group>"; };
+		0445F34828D5BF96001049AD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		044A31AA28CB1B6700F0A2C8 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		044A31AB28CB1B6700F0A2C8 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		044A31AC28CB1B6700F0A2C8 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		044A31AD28CB1B6700F0A2C8 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		044A31AE28CB1B6800F0A2C8 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		044A31B728CB5F9600F0A2C8 /* ATableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATableView.swift; sourceTree = "<group>"; };
+		044A31B828CB5F9600F0A2C8 /* AnimationFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationFactory.swift; sourceTree = "<group>"; };
+		044A31B928CB5F9600F0A2C8 /* Animator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animator.swift; sourceTree = "<group>"; };
+		0455F7C828D45AAA00D407F5 /* CountriesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesModel.swift; sourceTree = "<group>"; };
+		0455F7CA28D479A900D407F5 /* ReviewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewModel.swift; sourceTree = "<group>"; };
+		0458039928C5CFCF00E3A339 /* CategoryListing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryListing.swift; sourceTree = "<group>"; };
+		045B7F2428B4ABCB00FFC72A /* BranchesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BranchesCell.swift; sourceTree = "<group>"; };
+		045B7F2628B4B79900FFC72A /* ReviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewCell.swift; sourceTree = "<group>"; };
+		045B7F2828B4C82500FFC72A /* MyAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAccountViewController.swift; sourceTree = "<group>"; };
+		045B7F2A28B4E42900FFC72A /* MyCouponsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCouponsTableViewController.swift; sourceTree = "<group>"; };
+		045B7F2C28B4F94100FFC72A /* RedeemVoucherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedeemVoucherViewController.swift; sourceTree = "<group>"; };
+		047310F028C0D3F500C89160 /* CouponDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponDetailViewController.swift; sourceTree = "<group>"; };
+		0476A0EE28E578260072FC73 /* HomeRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRootViewController.swift; sourceTree = "<group>"; };
+		0476A0F028E585AE0072FC73 /* HomeSectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSectionModel.swift; sourceTree = "<group>"; };
+		0476A0F228E585C10072FC73 /* HomeSectionVoucherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSectionVoucherModel.swift; sourceTree = "<group>"; };
+		0478953E28B0BD4200938B7A /* Trax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trax.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0478954128B0BD4200938B7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0478954328B0BD4200938B7A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0478954528B0BD4200938B7A /* SignInController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInController.swift; sourceTree = "<group>"; };
+		0478954828B0BD4200938B7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0478954A28B0BD4E00938B7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0478954D28B0BD4E00938B7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0478954F28B0BD4E00938B7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048E557328B8B923000F82E0 /* VoucherDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoucherDetailModel.swift; sourceTree = "<group>"; };
+		048E557528B8BD55000F82E0 /* CouponModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponModel.swift; sourceTree = "<group>"; };
+		048E557728B8CD39000F82E0 /* MerchanBranchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MerchanBranchModel.swift; sourceTree = "<group>"; };
+		048E557928B8CF9E000F82E0 /* MerchantAboutModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MerchantAboutModel.swift; sourceTree = "<group>"; };
+		048E557B28B8F93B000F82E0 /* UserDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataModel.swift; sourceTree = "<group>"; };
+		0490902E28F00ABC008FF198 /* GiftsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftsView.swift; sourceTree = "<group>"; };
+		04A9195028B0D54A0026AA4A /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		04A9195228B0DBE40026AA4A /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		04A9195428B0E8840026AA4A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		04A9195628B0F1750026AA4A /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		04A9195928B103B40026AA4A /* CategoriesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesCell.swift; sourceTree = "<group>"; };
+		04D05A4A28B75BC4008BB547 /* ShowNotificationMessages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowNotificationMessages.swift; sourceTree = "<group>"; };
+		04D05A4C28B75DCE008BB547 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		04D05A4E28B79BD6008BB547 /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
+		04D05A5028B7B10E008BB547 /* VoucherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoucherModel.swift; sourceTree = "<group>"; };
+		04D67CC728E58DCD000494FE /* SliderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderCell.swift; sourceTree = "<group>"; };
+		04D67CC928E59132000494FE /* CategoryRootCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRootCell.swift; sourceTree = "<group>"; };
+		04D67CCB28E59C18000494FE /* VoucherListingRootCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoucherListingRootCell.swift; sourceTree = "<group>"; };
+		04DAD26628B9FA7800C77737 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		04DAD26828BA13E700C77737 /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
+		04DAD26A28BA308F00C77737 /* CheckoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutViewController.swift; sourceTree = "<group>"; };
+		04DAD26C28BA4E9000C77737 /* CouponView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponView.swift; sourceTree = "<group>"; };
+		04DAD26E28BA4EA500C77737 /* BranchesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BranchesView.swift; sourceTree = "<group>"; };
+		04DAD27028BA4EBA00C77737 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		04DAD27228BA4EC900C77737 /* ReviewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsView.swift; sourceTree = "<group>"; };
+		04DC502628D99B7A00C2FFA4 /* HomeVoucherListingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVoucherListingCell.swift; sourceTree = "<group>"; };
+		04DC502928D9C17C00C2FFA4 /* HomeSectionRoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSectionRoot.swift; sourceTree = "<group>"; };
+		04DFB02228DB21FF0001FB8D /* CategoryFeaturedListingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryFeaturedListingCell.swift; sourceTree = "<group>"; };
+		04E21B5328C0B09900C5EDCB /* MyHistoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHistoryModel.swift; sourceTree = "<group>"; };
+		04E855AC28C361190041293D /* HomeVoucherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVoucherModel.swift; sourceTree = "<group>"; };
+		04F185E028BCA7E20048A456 /* CartItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItemModel.swift; sourceTree = "<group>"; };
+		04F185E228BCB2A20048A456 /* CartItemBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItemBadge.swift; sourceTree = "<group>"; };
+		04F2D0FD28BE3F8D00E4346E /* MyVoucherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVoucherModel.swift; sourceTree = "<group>"; };
+		04F2D0FF28BE45B200E4346E /* MyCouponModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCouponModel.swift; sourceTree = "<group>"; };
+		04F41EF028BF679F00B127EF /* Adventure.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Adventure.ttf; sourceTree = "<group>"; };
+		04F41EF228BF67C600B127EF /* MASQUE__.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MASQUE__.ttf; sourceTree = "<group>"; };
+		04F41EF428BF67E700B127EF /* Vonique 64 Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Vonique 64 Italic.ttf"; sourceTree = "<group>"; };
+		04F41EF528BF67E700B127EF /* Vonique 64 Bold Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Vonique 64 Bold Italic.ttf"; sourceTree = "<group>"; };
+		04F41EF628BF67E700B127EF /* Vonique 64.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Vonique 64.ttf"; sourceTree = "<group>"; };
+		04FBD4FD28B35F9600330E19 /* VouchersListingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VouchersListingCell.swift; sourceTree = "<group>"; };
+		04FBD4FF28B3896100330E19 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		04FBD50228B3988A00330E19 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		04FC431428B3AAE7008B01E3 /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		04FC431628B3B3CD008B01E3 /* CouponCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponCell.swift; sourceTree = "<group>"; };
+		5FCB20105E26F2993931E505 /* Pods-Trax.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trax.release.xcconfig"; path = "Target Support Files/Pods-Trax/Pods-Trax.release.xcconfig"; sourceTree = "<group>"; };
+		6492CA0317231A842277B428 /* Pods_TraxTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TraxTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96B3F6ED28F31B86004DE7E9 /* RootGifViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootGifViewController.swift; sourceTree = "<group>"; };
+		96B3F6F128F32680004DE7E9 /* launchgif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = launchgif.gif; sourceTree = "<group>"; };
+		9CA8C029F6590F79E219B356 /* Pods_Trax.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trax.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA48ECECDAFBDD4338FFC4B9 /* Pods-Trax.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trax.debug.xcconfig"; path = "Target Support Files/Pods-Trax/Pods-Trax.debug.xcconfig"; sourceTree = "<group>"; };
+		F54CAA596EFFDBB8137CBB64 /* Pods_Trax_TraxUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trax_TraxUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0478953B28B0BD4200938B7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6EF2156075F010B2CF2784D /* Pods_Trax.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0403A17528E6F3BD006E14A2 /* Custom Types */ = {
+			isa = PBXGroup;
+			children = (
+				0403A17628E6F3D5006E14A2 /* SectionType.swift */,
+			);
+			path = "Custom Types";
+			sourceTree = "<group>";
+		};
+		040822E128D9C5F6003B47A3 /* Home Cells */ = {
+			isa = PBXGroup;
+			children = (
+				040822E228D9C615003B47A3 /* DealsCell.swift */,
+				04DFB02228DB21FF0001FB8D /* CategoryFeaturedListingCell.swift */,
+				04D67CC728E58DCD000494FE /* SliderCell.swift */,
+				04D67CC928E59132000494FE /* CategoryRootCell.swift */,
+				04DC502928D9C17C00C2FFA4 /* HomeSectionRoot.swift */,
+				04D67CCB28E59C18000494FE /* VoucherListingRootCell.swift */,
+				0403A17828E7255E006E14A2 /* HomeRootMultiRowCell.swift */,
+			);
+			path = "Home Cells";
+			sourceTree = "<group>";
+		};
+		044A31B628CB5F7F00F0A2C8 /* TableViewAnimaion */ = {
+			isa = PBXGroup;
+			children = (
+				044A31B828CB5F9600F0A2C8 /* AnimationFactory.swift */,
+				044A31B928CB5F9600F0A2C8 /* Animator.swift */,
+				044A31B728CB5F9600F0A2C8 /* ATableView.swift */,
+			);
+			path = TableViewAnimaion;
+			sourceTree = "<group>";
+		};
+		0478953528B0BD4100938B7A = {
+			isa = PBXGroup;
+			children = (
+				96B3F6E828F31ABC004DE7E9 /* Gifs */,
+				0403A17528E6F3BD006E14A2 /* Custom Types */,
+				044A31B628CB5F7F00F0A2C8 /* TableViewAnimaion */,
+				04F41EE728BF63AE00B127EF /* Fonts */,
+				04A9195828B103800026AA4A /* Cells */,
+				0478957328B0BE5100938B7A /* Model */,
+				0478957228B0BE4B00938B7A /* Controller */,
+				0478957128B0BE4300938B7A /* View */,
+				04D05A4928B75B97008BB547 /* Helper Classes */,
+				0478954028B0BD4200938B7A /* Trax */,
+				0478953F28B0BD4200938B7A /* Products */,
+				4E36EFBD6E509EE7AE5912C5 /* Pods */,
+				C976BF51D6F2216A4530DE26 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0478953F28B0BD4200938B7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0478953E28B0BD4200938B7A /* Trax.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0478954028B0BD4200938B7A /* Trax */ = {
+			isa = PBXGroup;
+			children = (
+				0478954128B0BD4200938B7A /* AppDelegate.swift */,
+				0478954328B0BD4200938B7A /* SceneDelegate.swift */,
+				0478954728B0BD4200938B7A /* Main.storyboard */,
+				0478954A28B0BD4E00938B7A /* Assets.xcassets */,
+				0478954C28B0BD4E00938B7A /* LaunchScreen.storyboard */,
+				0478954F28B0BD4E00938B7A /* Info.plist */,
+				0445F34828D5BF96001049AD /* GoogleService-Info.plist */,
+			);
+			path = Trax;
+			sourceTree = "<group>";
+		};
+		0478957128B0BE4300938B7A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04DAD26C28BA4E9000C77737 /* CouponView.swift */,
+				04DAD26E28BA4EA500C77737 /* BranchesView.swift */,
+				04DAD27028BA4EBA00C77737 /* AboutView.swift */,
+				04DAD27228BA4EC900C77737 /* ReviewsView.swift */,
+				0490902E28F00ABC008FF198 /* GiftsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0478957228B0BE4B00938B7A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0478954528B0BD4200938B7A /* SignInController.swift */,
+				04A9195028B0D54A0026AA4A /* RegisterViewController.swift */,
+				04A9195228B0DBE40026AA4A /* ForgotPasswordViewController.swift */,
+				04A9195428B0E8840026AA4A /* HomeViewController.swift */,
+				04A9195628B0F1750026AA4A /* TabBarViewController.swift */,
+				04FBD4FF28B3896100330E19 /* SearchViewController.swift */,
+				04FBD50228B3988A00330E19 /* CategoryViewController.swift */,
+				04FC431428B3AAE7008B01E3 /* ProductViewController.swift */,
+				045B7F2828B4C82500FFC72A /* MyAccountViewController.swift */,
+				045B7F2A28B4E42900FFC72A /* MyCouponsTableViewController.swift */,
+				045B7F2C28B4F94100FFC72A /* RedeemVoucherViewController.swift */,
+				04DAD26628B9FA7800C77737 /* CartViewController.swift */,
+				04DAD26A28BA308F00C77737 /* CheckoutViewController.swift */,
+				047310F028C0D3F500C89160 /* CouponDetailViewController.swift */,
+				043D694928D0B4150055CEC8 /* WalkthroughViewController.swift */,
+				0476A0EE28E578260072FC73 /* HomeRootViewController.swift */,
+				96B3F6ED28F31B86004DE7E9 /* RootGifViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0478957328B0BE5100938B7A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04D05A4E28B79BD6008BB547 /* CategoryModel.swift */,
+				04D05A5028B7B10E008BB547 /* VoucherModel.swift */,
+				048E557328B8B923000F82E0 /* VoucherDetailModel.swift */,
+				048E557528B8BD55000F82E0 /* CouponModel.swift */,
+				048E557728B8CD39000F82E0 /* MerchanBranchModel.swift */,
+				048E557928B8CF9E000F82E0 /* MerchantAboutModel.swift */,
+				048E557B28B8F93B000F82E0 /* UserDataModel.swift */,
+				04F185E028BCA7E20048A456 /* CartItemModel.swift */,
+				04F2D0FD28BE3F8D00E4346E /* MyVoucherModel.swift */,
+				04F2D0FF28BE45B200E4346E /* MyCouponModel.swift */,
+				04E21B5328C0B09900C5EDCB /* MyHistoryModel.swift */,
+				04E855AC28C361190041293D /* HomeVoucherModel.swift */,
+				0458039928C5CFCF00E3A339 /* CategoryListing.swift */,
+				0455F7C828D45AAA00D407F5 /* CountriesModel.swift */,
+				0455F7CA28D479A900D407F5 /* ReviewModel.swift */,
+				040DF31228E1B7280033C2A6 /* CouponValidDaysModel.swift */,
+				0476A0F028E585AE0072FC73 /* HomeSectionModel.swift */,
+				0476A0F228E585C10072FC73 /* HomeSectionVoucherModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04A9195828B103800026AA4A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				040822E128D9C5F6003B47A3 /* Home Cells */,
+				04A9195928B103B40026AA4A /* CategoriesCell.swift */,
+				04FBD4FD28B35F9600330E19 /* VouchersListingCell.swift */,
+				04FC431628B3B3CD008B01E3 /* CouponCell.swift */,
+				045B7F2428B4ABCB00FFC72A /* BranchesCell.swift */,
+				045B7F2628B4B79900FFC72A /* ReviewCell.swift */,
+				04DC502628D99B7A00C2FFA4 /* HomeVoucherListingCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		04D05A4928B75B97008BB547 /* Helper Classes */ = {
+			isa = PBXGroup;
+			children = (
+				04D05A4A28B75BC4008BB547 /* ShowNotificationMessages.swift */,
+				04D05A4C28B75DCE008BB547 /* NetworkManager.swift */,
+				04DAD26828BA13E700C77737 /* ThemeManager.swift */,
+				04F185E228BCB2A20048A456 /* CartItemBadge.swift */,
+			);
+			path = "Helper Classes";
+			sourceTree = "<group>";
+		};
+		04F41EE728BF63AE00B127EF /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				04F41EF028BF679F00B127EF /* Adventure.ttf */,
+				04F41EF228BF67C600B127EF /* MASQUE__.ttf */,
+				04F41EF528BF67E700B127EF /* Vonique 64 Bold Italic.ttf */,
+				04F41EF428BF67E700B127EF /* Vonique 64 Italic.ttf */,
+				04F41EF628BF67E700B127EF /* Vonique 64.ttf */,
+				044A31AC28CB1B6700F0A2C8 /* Roboto-Bold.ttf */,
+				044A31AE28CB1B6800F0A2C8 /* Roboto-Light.ttf */,
+				044A31AA28CB1B6700F0A2C8 /* Roboto-Medium.ttf */,
+				044A31AB28CB1B6700F0A2C8 /* Roboto-Regular.ttf */,
+				044A31AD28CB1B6700F0A2C8 /* Roboto-Thin.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		4E36EFBD6E509EE7AE5912C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA48ECECDAFBDD4338FFC4B9 /* Pods-Trax.debug.xcconfig */,
+				5FCB20105E26F2993931E505 /* Pods-Trax.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		96B3F6E828F31ABC004DE7E9 /* Gifs */ = {
+			isa = PBXGroup;
+			children = (
+				96B3F6F128F32680004DE7E9 /* launchgif.gif */,
+			);
+			path = Gifs;
+			sourceTree = "<group>";
+		};
+		C976BF51D6F2216A4530DE26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9CA8C029F6590F79E219B356 /* Pods_Trax.framework */,
+				F54CAA596EFFDBB8137CBB64 /* Pods_Trax_TraxUITests.framework */,
+				6492CA0317231A842277B428 /* Pods_TraxTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0478953D28B0BD4200938B7A /* Trax */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0478956828B0BD4F00938B7A /* Build configuration list for PBXNativeTarget "Trax" */;
+			buildPhases = (
+				0922BA719BE38EAD67E4EE64 /* [CP] Check Pods Manifest.lock */,
+				0478953A28B0BD4200938B7A /* Sources */,
+				0478953B28B0BD4200938B7A /* Frameworks */,
+				0478953C28B0BD4200938B7A /* Resources */,
+				5B6C548A096FBBCFFDB7C139 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Trax;
+			productName = Trax;
+			productReference = 0478953E28B0BD4200938B7A /* Trax.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0478953628B0BD4100938B7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					0478953D28B0BD4200938B7A = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 0478953928B0BD4100938B7A /* Build configuration list for PBXProject "Trax" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0478953528B0BD4100938B7A;
+			productRefGroup = 0478953F28B0BD4200938B7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0478953D28B0BD4200938B7A /* Trax */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0478953C28B0BD4200938B7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044A31B228CB1B6800F0A2C8 /* Roboto-Bold.ttf in Resources */,
+				04F41EF128BF679F00B127EF /* Adventure.ttf in Resources */,
+				0478954E28B0BD4E00938B7A /* LaunchScreen.storyboard in Resources */,
+				04F41EF328BF67C600B127EF /* MASQUE__.ttf in Resources */,
+				0478954B28B0BD4E00938B7A /* Assets.xcassets in Resources */,
+				044A31B428CB1B6800F0A2C8 /* Roboto-Light.ttf in Resources */,
+				044A31B328CB1B6800F0A2C8 /* Roboto-Thin.ttf in Resources */,
+				0478954928B0BD4200938B7A /* Main.storyboard in Resources */,
+				044A31B028CB1B6800F0A2C8 /* Roboto-Medium.ttf in Resources */,
+				0445F34928D5BF97001049AD /* GoogleService-Info.plist in Resources */,
+				04F41EF828BF67E700B127EF /* Vonique 64 Bold Italic.ttf in Resources */,
+				044A31B128CB1B6800F0A2C8 /* Roboto-Regular.ttf in Resources */,
+				04F41EF728BF67E700B127EF /* Vonique 64 Italic.ttf in Resources */,
+				04F41EF928BF67E700B127EF /* Vonique 64.ttf in Resources */,
+				96B3F6F228F32680004DE7E9 /* launchgif.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0922BA719BE38EAD67E4EE64 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Trax-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B6C548A096FBBCFFDB7C139 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Trax/Pods-Trax-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Trax/Pods-Trax-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Trax/Pods-Trax-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0478953A28B0BD4200938B7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0455F7C928D45AAA00D407F5 /* CountriesModel.swift in Sources */,
+				04FBD50028B3896100330E19 /* SearchViewController.swift in Sources */,
+				045B7F2728B4B79900FFC72A /* ReviewCell.swift in Sources */,
+				0458039A28C5CFCF00E3A339 /* CategoryListing.swift in Sources */,
+				047310F128C0D3F500C89160 /* CouponDetailViewController.swift in Sources */,
+				04D67CCC28E59C18000494FE /* VoucherListingRootCell.swift in Sources */,
+				04FBD4FE28B35F9600330E19 /* VouchersListingCell.swift in Sources */,
+				04E855AD28C361190041293D /* HomeVoucherModel.swift in Sources */,
+				04D67CCA28E59132000494FE /* CategoryRootCell.swift in Sources */,
+				04A9195128B0D54A0026AA4A /* RegisterViewController.swift in Sources */,
+				04DAD26D28BA4E9000C77737 /* CouponView.swift in Sources */,
+				0403A17728E6F3D5006E14A2 /* SectionType.swift in Sources */,
+				04D05A4F28B79BD6008BB547 /* CategoryModel.swift in Sources */,
+				04D05A4B28B75BC4008BB547 /* ShowNotificationMessages.swift in Sources */,
+				0490902F28F00ABC008FF198 /* GiftsView.swift in Sources */,
+				04E21B5428C0B09900C5EDCB /* MyHistoryModel.swift in Sources */,
+				04DFB02328DB21FF0001FB8D /* CategoryFeaturedListingCell.swift in Sources */,
+				04D05A5128B7B10E008BB547 /* VoucherModel.swift in Sources */,
+				04A9195328B0DBE40026AA4A /* ForgotPasswordViewController.swift in Sources */,
+				96B3F6EE28F31B86004DE7E9 /* RootGifViewController.swift in Sources */,
+				0478954628B0BD4200938B7A /* SignInController.swift in Sources */,
+				04DAD27328BA4EC900C77737 /* ReviewsView.swift in Sources */,
+				044A31BC28CB5F9600F0A2C8 /* Animator.swift in Sources */,
+				045B7F2528B4ABCB00FFC72A /* BranchesCell.swift in Sources */,
+				04D67CC828E58DCD000494FE /* SliderCell.swift in Sources */,
+				0478954228B0BD4200938B7A /* AppDelegate.swift in Sources */,
+				044A31BB28CB5F9600F0A2C8 /* AnimationFactory.swift in Sources */,
+				040DF31328E1B7280033C2A6 /* CouponValidDaysModel.swift in Sources */,
+				04FC431528B3AAE7008B01E3 /* ProductViewController.swift in Sources */,
+				04F185E328BCB2A20048A456 /* CartItemBadge.swift in Sources */,
+				043D694A28D0B4150055CEC8 /* WalkthroughViewController.swift in Sources */,
+				04DAD27128BA4EBA00C77737 /* AboutView.swift in Sources */,
+				04FC431728B3B3CD008B01E3 /* CouponCell.swift in Sources */,
+				04DAD26F28BA4EA500C77737 /* BranchesView.swift in Sources */,
+				048E557428B8B923000F82E0 /* VoucherDetailModel.swift in Sources */,
+				045B7F2928B4C82500FFC72A /* MyAccountViewController.swift in Sources */,
+				04D05A4D28B75DCE008BB547 /* NetworkManager.swift in Sources */,
+				04F2D10028BE45B300E4346E /* MyCouponModel.swift in Sources */,
+				04DAD26728B9FA7800C77737 /* CartViewController.swift in Sources */,
+				04DC502A28D9C17C00C2FFA4 /* HomeSectionRoot.swift in Sources */,
+				04A9195728B0F1750026AA4A /* TabBarViewController.swift in Sources */,
+				040822E328D9C615003B47A3 /* DealsCell.swift in Sources */,
+				048E557628B8BD55000F82E0 /* CouponModel.swift in Sources */,
+				0476A0EF28E578260072FC73 /* HomeRootViewController.swift in Sources */,
+				045B7F2B28B4E42900FFC72A /* MyCouponsTableViewController.swift in Sources */,
+				04DC502728D99B7A00C2FFA4 /* HomeVoucherListingCell.swift in Sources */,
+				048E557A28B8CF9E000F82E0 /* MerchantAboutModel.swift in Sources */,
+				048E557828B8CD39000F82E0 /* MerchanBranchModel.swift in Sources */,
+				0403A17928E7255E006E14A2 /* HomeRootMultiRowCell.swift in Sources */,
+				045B7F2D28B4F94100FFC72A /* RedeemVoucherViewController.swift in Sources */,
+				0476A0F328E585C10072FC73 /* HomeSectionVoucherModel.swift in Sources */,
+				04A9195A28B103B40026AA4A /* CategoriesCell.swift in Sources */,
+				0478954428B0BD4200938B7A /* SceneDelegate.swift in Sources */,
+				044A31BA28CB5F9600F0A2C8 /* ATableView.swift in Sources */,
+				048E557C28B8F93B000F82E0 /* UserDataModel.swift in Sources */,
+				04FBD50328B3988A00330E19 /* CategoryViewController.swift in Sources */,
+				04A9195528B0E8840026AA4A /* HomeViewController.swift in Sources */,
+				04F185E128BCA7E20048A456 /* CartItemModel.swift in Sources */,
+				04F2D0FE28BE3F8D00E4346E /* MyVoucherModel.swift in Sources */,
+				04DAD26B28BA308F00C77737 /* CheckoutViewController.swift in Sources */,
+				04DAD26928BA13E700C77737 /* ThemeManager.swift in Sources */,
+				0455F7CB28D479A900D407F5 /* ReviewModel.swift in Sources */,
+				0476A0F128E585AE0072FC73 /* HomeSectionModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0478954728B0BD4200938B7A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0478954828B0BD4200938B7A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0478954C28B0BD4E00938B7A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0478954D28B0BD4E00938B7A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0478956628B0BD4F00938B7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0478956728B0BD4F00938B7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0478956928B0BD4F00938B7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA48ECECDAFBDD4338FFC4B9 /* Pods-Trax.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = P55P4VVPN6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Trax/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Froffer;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bogoship.Bogoship;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Bogoship Deals Provision Profile";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		0478956A28B0BD4F00938B7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FCB20105E26F2993931E505 /* Pods-Trax.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P55P4VVPN6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Trax/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Froffer;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bogoship.Bogoship;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Bogoship Deals Provision Profile";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0478953928B0BD4100938B7A /* Build configuration list for PBXProject "Trax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0478956628B0BD4F00938B7A /* Debug */,
+				0478956728B0BD4F00938B7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0478956828B0BD4F00938B7A /* Build configuration list for PBXNativeTarget "Trax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0478956928B0BD4F00938B7A /* Debug */,
+				0478956A28B0BD4F00938B7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0478953628B0BD4100938B7A /* Project object */;
+}
